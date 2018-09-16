@@ -1,0 +1,179 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+body { color:#333; padding:5px 0; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+a {text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+html,body{height: 100%;}
+
+
+/*maotai Titel start*/
+.title{width: 100%; height: 50px; font-size: 13px;}
+.title .t1{display:flex; height: 40px; width: 20%; justify-content: space-around; align-items: center; position: absolute; 
+left: 80px;}
+.title .t1 li:nth-child(1){width: 35%; height: 20px; line-height: 20px; text-align: center; border-right: 1px black solid;
+	background: url(../img/t1.png) no-repeat left center;}
+.title .t1 li:nth-child(2){width: 30%; height: 20px; line-height: 20px; text-align: center; border-right: 1px black solid;
+	background: url(../img/t2.png) no-repeat left center;}
+.title .t1 li:nth-child(3){width: 28%; height: 20px; line-height: 20px; text-align: center; 
+	background: url(../img/t3.png) no-repeat left center;}
+.title .t2{display:flex; height: 40px; width: 35%; justify-content: space-around; align-items: center; position: absolute;
+ right: 80px;}
+.title .t2 p{font-size: 16px; color: red;}
+.title .t2 a:nth-child(2){display:block; width: 56px; height: 16px; background: red; border-radius: 3px; text-align: center; 
+line-height: 16px; color: white;}
+.title .t2 a:nth-child(3){display:block; width: 28px; height: 16px; background: red; border-radius: 3px; text-align: center; 
+line-height: 16px; color: white;}
+.title .t2 a:nth-child(4) span{ color: red;}
+/*maotai Titel over*/
+
+/*maotai Search start*/
+header{width: 100%; height: 80px; background-color: #CCCCCC; text-align: center;}
+.header{width: 90%; height: 80px; margin: 0 auto;}
+.header #searchText{width: 350px; height: 30px;}
+.header #search{width: 50px; height: 30px; background-color: red; color: white;}
+/*maotai Search over*/
+
+/*maotai Bar start*/
+.bar{width: 100%; height: 40px; background-color: red; font-size: 16px; font-weight: bold;position: relative;}
+.bar .bar_1{width: 90%; height: 40px; margin: 0 auto; text-align: center; line-height: 40px;}
+.bar .bar_1 .catalogue{width:20%;  background-color: gold;}
+.bar .bar_1 .user{width:20%;  background-color: gold;}
+.bar .bar_2{width:40px; height: 25px; line-height: 25px; text-align: center; font-size: 15px; border-radius: 5px;
+					 background-color: greenyellow; position: absolute; left: 840px; top: -15px;}
+/*maotai Bar over*/
+
+/*maotai lq start*/
+.text{height: 1220px; background-color: #CCCCCC; overflow: hidden;}
+
+.hotProdoct_T{width: 90%; height: 40px; background: white; margin: 10px auto; line-height: 40px;}
+.hotProdoct_T p{font-size: 25px; font-weight: bold; float: left;}
+.hotProdoct_T a{font-size: 14px; float: right;}
+.hotProdoct_D{width: 90%; height: 235px; margin: 10px auto; line-height: 20px; overflow: hidden; position: relative;}
+.hotProdoct_D .bd{width: 2480px; height: 240px; position: absolute;}
+.hotProdoct_D .hP{width: 224px; height: 240px; background: white; float: left; padding-left: 32px; 
+margin-right: 24px; font-size: 14px; font-weight: bold;}
+
+#lq{width: 223px; height: 240px; background: white; float: left; padding-left: 32px; 
+	margin-right: 21px; font-size: 14px; font-weight: bold;}
+	
+	#lq1{width: 90%; height: 240px; margin: 0 auto; margin-bottom: 10px;}
+	#lq1 #lq:first-child{padding-left: 0; width: 236px;}
+	#lq1 #lq:first-child em{display: none;}
+	#lq1 #lq:last-child{margin-right: 0;}
+	
+	#lq2{width: 90%; height: 240px; margin: 0 auto; margin-bottom: 10px;}
+	#lq2 #lq:first-child{padding-left: 0; width: 236px;}
+	#lq2 #lq:first-child em{display: none;}
+	#lq2 #lq:last-child{margin-right: 0;}
+	
+	#lq3{width: 90%; height: 240px; margin: 0 auto; margin-bottom: 10px;}
+	#lq3 #lq:first-child{padding-left: 0; width: 236px;}
+	#lq3 #lq:first-child em{display: none;}
+	#lq3 #lq:last-child{margin-right: 0;}
+	
+	#lq4{width: 90%; height: 240px; margin: 0 auto; margin-bottom: 10px;}
+	#lq4 #lq:first-child{padding-left: 0; width: 236px;}
+	#lq4 #lq:first-child em{display: none;}
+	#lq4 #lq:last-child{margin-right: 0;}
+	
+/*maotai lq over*/
+
+
+/*Footer start*/
+.profooter{width: 100%; height: 250px; background-color: white; padding:10px 50px; overflow: hidden; box-sizing: border-box;}
+.profooter .F1{width: 1000px; height: 250px; float: left;}
+.profooter .F1 .F11{width: 1000px; height: 45px; border-bottom: 1px black solid;}
+.profooter .F1 .F11 li{height: 45px; font-weight: bold; font-size: 16px; line-height: 45px; text-align: center;}
+.profooter .F1 .F11 li:nth-child(1){background: url(../img/f1.png) no-repeat left center; width: 30%; }
+.profooter .F1 .F11 li:nth-child(2){background: url(../img/f2.png) no-repeat left center; width: 30%;}
+.profooter .F1 .F11 li:nth-child(3){background: url(../img/f3.png) no-repeat left center; width: 40%;}
+	#F12{width: 1000px; height: 150px; margin-top: 20px; text-align: center;}
+	#F12 ul{width: 25%; height: 150px; float: left;}
+	#F12 ul li{width: 100%; height: 30px; line-height: 20px; font-size: 14px;}
+	#F12 ul li:first-child{height: 50px; line-height: 50px; font-size: 20px; font-weight: bold;}
+#F2{width: 200px; height: 250px; float: right;}
+#F2 .F21{width: 200px; height: 150px; margin-top: 20px;}
+
+#f1{width: 100%; height: 20px; background-color: brown;}
+.f2{width: 100%; height: 200px; background-color: red; text-align: center;font-size: 20px; font-weight: bold; overflow: hidden;}
+.f2 ul{width: 650px; height: 20px; margin: 30px auto;}
+.f2 ul li{width:120px; height: 20px; line-height:20px; border-right: 1px white solid;}
+.f2 ul li:last-child{border-right: none;}
+.f2 p{color: white; }
+/*Footer over*/
+
+
+
+    /*shopping start*/
+    #shoppingCart{width: 100%; height: 1000px; overflow: hidden; background: -webkit-linear-gradient(top,green,orange,yellow,orange,green);}
+    .shoppingCart_title{width: 80%; height: 60px; margin: 20px auto;}
+    .shoppingCart_title span{font-size: 30px; font-weight: bolder; color: cornflowerblue;}
+    .shoppingCart_title p{font-size: 20px; color: wheat; font-weight: bold;}
+    .shoppingCart_title a{display: block; width: 100px; height: 40px; border-radius: 5px; border:2px gold solid; 
+    font-size: 18px; line-height: 40px; text-align: center; color: wheat; font-weight: bold;}
+    .shoppingCart_title a:hover{background: brown;}
+    /*content*/
+    .shoppingCart_content{width: 80%; margin: 0 auto; border: 3px black solid; text-align: center; font-size: 16px; color: white;}
+    .shoppingCart_content th{height: 30px; font-size: 20px; font-weight: bold; color: azure;}
+    .shoppingCart_content span:hover{color: red;}
+    tbody img{display: block; width: 40px; height: 50px;}
+    .ZZ{padding-left: 80px;}
+    /*shopping over*/
+   
+    /*maotai login Frame start*/
+        .Frame{ width: 45%; height: 300px; position: absolute; left: 330px; top: 20px; font-size: 26px; font-weight: bolder; 
+        z-index: 99999; border: 2px gold solid; border-radius: 10px; background-color: #CCCCCC; text-align: center;}
+        .Frame #Frame_user{width: 300px; height: 25px; border: 2px blueviolet solid; border-radius: 8px; background: wheat; margin: 30px 0 20px; outline: none;}
+        .Frame #Frame_pass{width: 300px; height: 25px; border: 2px blueviolet solid; border-radius: 8px; background: wheat; margin-bottom: 40px; outline: none;}
+        .Frame a{display: block; height: 25px; width: 100px; border: darkgreen 2px solid; font-size: 20px; border-radius: 10px;
+            color: darkmagenta; margin: 15px auto 0; line-height: 25px;}
+        #login, #reg{ width: 60px; height: 35px; font-size: 20px; line-height: 35px;}
+    /*maotai login Frame over*/
+
+	/*maotai contactUs start*/
+    .mtContact_title {
+		width: 90%;
+		height: 50px;
+		margin: 30px auto;
+		text-align: center;
+		line-height: 50px;
+		font-size: 30px;
+		font-weight: bolder;
+		border-top: 2px black solid;
+		border-bottom: 2px black solid; }
+	  
+	  .mtContact_text {
+		width: 80%;
+		height: 300px;
+		margin: 10px auto;
+		overflow: hidden; }
+		.mtContact_text .mtContact_text_1 {
+		  margin: 10px 0 10px;
+		  width: 200px;
+		  height: 90px;
+		  border-bottom: 2px solid black; }
+		  .mtContact_text .mtContact_text_1 p {
+			height: 50px;
+			line-height: 50px;
+			font-size: 30px;
+			font-weight: bolder; }
+		  .mtContact_text .mtContact_text_1 span {
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			font-size: 20px;
+			font-weight: bold; }
+		.mtContact_text .mtContact_text_2 {
+		  font-size: 16px; }
+		  .mtContact_text .mtContact_text_2 ul li {
+			line-height: 35px; }
+	  
+	  .mtContact_pic {
+		width: 1069px;
+		height: 510px;
+		margin: 20px auto; }
+	/*maotai contactUs over*/
